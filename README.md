@@ -61,7 +61,7 @@ Open a pull request.
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-vbnet
+
 Copy code
 
 Feel free to modify the content as per your project's specifics.
