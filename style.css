@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+header {
+    color: rgb(9, 8, 8);
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+#calculator {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    width: 100%;
+    padding: 10px;
+    font-size: 2em;
+    text-align: center;
+    border: 1px solid #0b0909;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 20px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e0e0e0;
+}
+
+button:hover {
+    background-color: #d0d0d0;
+}
+
+button.alter {
+    background-color: #ff9500;
+    color: white;
+}
+
+button.alter:hover {
+    background-color: #e08500;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+footer .social-icons a:hover {
+    color: #054565;
+}

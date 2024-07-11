@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+  <header>
+    <h1>Calculator</h1>
+  </header>
+  <div id="calculator">
+    <input readonly id="display">
+    <div id="buttons">
+        <button onclick="calculate('+')" class="alter">+</button>
+        <button onclick="calculate('7')">7</button>
+        <button onclick="calculate('8')">8</button>
+        <button onclick="calculate('9')">9</button>
+        <button onclick="calculate('-')" class="alter">-</button>
+        <button onclick="calculate('4')">4</button>
+        <button onclick="calculate('5')">5</button>
+        <button onclick="calculate('6')">6</button>
+        <button onclick="calculate('*')" class="alter">*</button>
+        <button onclick="calculate('1')">1</button>
+        <button onclick="calculate('2')">2</button>
+        <button onclick="calculate('3')">3</button>
+        <button onclick="calculate('/')" class="alter">/</button>
+        <button onclick="calculate('0')">0</button>
+        <button onclick="calculate('.')">.</button>
+        <button onclick="equal()">=</button>
+        <button onclick="cleardisplay()" class="alter">c</button>
+    </div>
+  </div>
+  
+  <footer>
+    <div>Designed by &#129505; Gowtham R</div>
+    <div class="social-icons">
+        <a href="https://www.linkedin.com/in/me/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+        <a href="https://github.com/Akash21Gowtham" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+        <a href="mailto:gowthamsajay701@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+        <a href="https://x.com/Gowthamr2022455" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
